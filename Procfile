@@ -1,1 +1,1 @@
-web: waitress-serve --listen=*:8000 authentication_system.wsgi:application
+web: python manage.py runserver 0.0.0.0:5000
