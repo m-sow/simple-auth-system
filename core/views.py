@@ -10,7 +10,7 @@ from django.contrib.auth.views import (
     LogoutView as BaseLogoutView
 )
 
-from authentication_system.utils import send_activation_email
+from core.utils import send_activation_email
 from core.forms import SignInViaUsernameForm, SignInViaEmailForm, SignInViaEmailOrUsernameForm, SignUpForm
 from core.models import Activation
 
