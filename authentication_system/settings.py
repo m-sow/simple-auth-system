@@ -140,3 +140,6 @@ ACCOUNT_EMAIL_VERIFICATION = "none"
 EMAIL_HOST_USER = 'test@gmail.com'
 
 LOCALE_PATHS = [BASE_DIR / 'locale']
+
+import django_heroku
+django_heroku.settings(locals())
