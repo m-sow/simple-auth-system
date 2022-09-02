@@ -137,7 +137,7 @@ SIGN_UP_FIELDS = ['email']
 EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
 #EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
 ACCOUNT_EMAIL_VERIFICATION = "none"
-EMAIL_HOST_USER = 'test@gmail.com'
+EMAIL_HOST_USER = 'foulaneibn@gmail.com'
 
 LOCALE_PATHS = [BASE_DIR / 'locale']
 
