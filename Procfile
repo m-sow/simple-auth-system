@@ -1,1 +1,1 @@
-web: gunicorn authentication_system.wsgi
+web: waitress-serve --listen=*:8000 authentication_system.wsgi:application
